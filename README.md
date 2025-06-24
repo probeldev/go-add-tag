@@ -6,9 +6,14 @@
 
 ## Установка
 
-```bash
-go install github.com/probeldev/go-add-tag@latest
-```
+### Go
+
+    go install github.com/probeldev/go-add-tag@latest
+
+
+### Nix
+
+    nix profile install github:probeldev/go-add-tag
 
 
 ## Использование
@@ -19,4 +24,4 @@ go install github.com/probeldev/go-add-tag@latest
 
 Выполните команду:
 
-    :'<,'>!addjsontags
+    :'<,'>!go-add-tag
